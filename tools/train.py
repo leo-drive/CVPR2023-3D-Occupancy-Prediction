@@ -3,8 +3,14 @@
 # ---------------------------------------------
 #  Modified by Zhiqi Li
 # ---------------------------------------------
- 
+
 from __future__ import division
+
+import sys
+sys.path.insert(0, '/home/alex/projects/CVPR2023-3D-Occupancy-Prediction')
+
+from pprint import pprint
+pprint(sys.path)
 
 import argparse
 import copy
